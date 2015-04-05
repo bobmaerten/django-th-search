@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
+from django import forms
 from haystack.forms import SearchForm
-
 
 class TriggerHappySearchForm(SearchForm):
 

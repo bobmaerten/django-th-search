@@ -4,7 +4,7 @@ Search Engine for Django Trigger Happy
 Installation 
 ============
 
-follow the installation process from `Haystack <http://django-haystack.readthedocs.org/>`
+follow the installation process from `Haystack <http://django-haystack.readthedocs.org/>` _
 
 settings.py 
 ===========
@@ -16,15 +16,26 @@ add the module th_search to the INSTALLED_APPS
 
    INSTALLED_APPS = (
         ...
+        'haystack',
         'th_search',
 
 
-.. code:: system
+urls.py
+=======
 
-    python manage.py syncdb
+add the following to your urls.py :
 
+
+.. code:: python
+
+    url(r'^th/search/', include('th_search.urls')),
+
+
+update search 
+=============
 
 then let's index the search engine
+
 
 .. code:: system
 
