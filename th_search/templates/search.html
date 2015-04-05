@@ -16,10 +16,10 @@
 
         {% if query %}
             <h3>Results</h3>
-
+            {{ page }}
             {% for result in page.object_list %}
                 <p>
-                    <a href="{{ result.object.get_absolute_url }}">{{ result.object.title }}</a>
+                    <a href="{{ result.object.get_absolute_url }}">{{ result.object.description }}</a>
                 </p>
             {% empty %}
                 <p>No results found.</p>

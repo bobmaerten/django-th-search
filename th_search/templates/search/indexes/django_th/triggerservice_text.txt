@@ -1,9 +1,6 @@
-{{ object.title }}
 {{ object.consumer.get_full_name }}
 {{ object.provider.get_full_name }}
 {{ object.description }}
 {{ object.user.get_full_name }}
-{{ object.date_creation }}
-{{ object.date_triggered }}
 {{ object.status }}
 {{ object.body }}
