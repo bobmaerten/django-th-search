@@ -1,3 +1,4 @@
+================
 django-th-search
 ================
 A Search Engine for Django Trigger Happy
@@ -5,8 +6,8 @@ A Search Engine for Django Trigger Happy
 
 Requirements
 ============
-* dango-haystack==2.3.1
-* django_th=>0.9.3
+* `dango-haystack <https://github.com/django-haystack/django-haystack>`_ == 2.3.1
+* `django_th <https://github.com/foxmask/django-th>`_ >= 0.9.1
 
 Installation 
 ============
