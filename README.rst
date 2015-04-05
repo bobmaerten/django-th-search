@@ -1,13 +1,23 @@
-# django-th-search
-Search Engine for Django Trigger Happy
+django-th-search
+================
+A Search Engine for Django Trigger Happy
+
+
+Requirements
+============
+* dango-haystack==2.3.1
+* django_th=>0.9.3
 
 Installation 
 ============
 
-follow the installation process from `Haystack <http://django-haystack.readthedocs.org/>` _
+Haystack
+--------
+
+follow the installation process from `Haystack <http://django-haystack.readthedocs.org/>`_
 
 settings.py 
-===========
+-----------
 
 add the module th_search to the INSTALLED_APPS
 
@@ -21,7 +31,7 @@ add the module th_search to the INSTALLED_APPS
 
 
 urls.py
-=======
+-------
 
 add the following to your urls.py :
 
@@ -32,7 +42,7 @@ add the following to your urls.py :
 
 
 update search 
-=============
+-------------
 
 then let's index the search engine
 
