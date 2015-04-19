@@ -20,7 +20,7 @@ setup(
     author='Olivier Demah',
     author_email='olivier@foxmask.info',
     url='https://github.com/foxmask/django-th-search',
-    download_url="https://github.com/foxmask/django-th-search/archive/trgger-happy-search-"
+    download_url="https://github.com/foxmask/django-th-search/archive/trigger-happy-search-"
     + version + ".zip",
     packages=find_packages(),
     classifiers=[
