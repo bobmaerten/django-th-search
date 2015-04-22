@@ -6,7 +6,7 @@ A Search Engine for Django Trigger Happy
 
 Requirements
 ============
-* `dango-haystack <https://github.com/django-haystack/django-haystack>`_ == 2.3.1
+* `django-haystack <https://github.com/django-haystack/django-haystack>`_ == 2.3.1
 * `django_th <https://github.com/foxmask/django-th>`_ >= 0.10.1
 
 Installation 
